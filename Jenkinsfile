@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'sonaldsilva/experiment5repo'
+        DOCKER_IMAGE = 'sonaldsilva/devexp5'
         DOCKER_CREDENTIALS = 'dockerhub_credentials'
         DOCKER_CMD = '"C:\\Users\\pauld\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe"'
     }
