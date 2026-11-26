@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Sonal2003-pixel/experiment5.1.git'
+                    url: 'https://github.com/Sonal2003-pixel/devopsexp5.git'
             }
         }
 
